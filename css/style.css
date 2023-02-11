@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+ul {
+  margin: 0px !important;
+  padding: 0px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black; }
+
+::after {
+  color: black; }
+
+a {
+  color: black; }
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem; }
+
+p {
+  margin-bottom: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+header {
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #e5e5e9;
+  background-image: url("../assets/images/FondoInicio.jpg"); }
+
+.cajaNav {
+  height: 10vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center; }
+
+.imgLogo {
+  height: 180px;
+  width: 300px;
+  margin-left: 60px; }
+
+.logo {
+  max-width: 200px;
+  max-height: 200px; }
+
+.box_navegacion {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 30px;
+  padding-right: 100px; }
+
+.navItem {
+  text-decoration: none;
+  font-size: 1.2rem; }
+
+.nav_Items {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #080808; }
+
+.underline-hover::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: black;
+  display: block;
+  transition: ease-in-out 300ms; }
+
+.underline-hover:hover::after {
+  width: 100%; }
+
+/* Nombre */
+.caja {
+  height: 90vh;
+  width: 100%;
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 15px; }
+
+.section_Text {
+  height: 10vh;
+  width: 100%;
+  background-color: aliceblue;
+  color: black; }
+
+.headerFrase {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem; }
+
+.section_box {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column; }
+
+.boxName {
+  width: 90%;
+  height: 75%;
+  display: flex;
+  justify-content: end;
+  align-items: end; }
+
+.header_text {
+  font-size: 2rem;
+  margin-top: 5px;
+  color: orangered; }
+
+/* Main */
+main {
+  background-color: #242323;
+  color: white; }
+
+#main1 {
+  height: 100vh;
+  background: #e5e5e9; }
+
+#main2 {
+  height: 100vh;
+  background: #e5e5e9; }
+
+#main3 {
+  height: 100vh;
+  background: #e5e5e9; }
